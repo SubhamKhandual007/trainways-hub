@@ -1,15 +1,15 @@
-# 🚆 Trainways Hub
+# 🚂 Trainways Hub
 
 <div align="center">
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-**A Comprehensive Railway Ticket Booking & Management Platform**
+**A Modern Railway Management & Booking Platform Built with Next.js & TypeScript**
 
-[View Project](#-about) • [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-technologies-used)
+[Live Demo](#-live-demo) • [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack)
 
 </div>
 
@@ -19,14 +19,14 @@
 
 - [About](#-about)
 - [Features](#-features)
-- [Tech Stack](#-technologies-used)
+- [Live Demo](#-live-demo)
 - [Installation](#-installation)
 - [Project Structure](#-project-structure)
+- [Technologies Used](#-technologies-used)
+- [Development](#-development)
 - [Database Schema](#-database-schema)
-- [API Endpoints](#-api-endpoints)
-- [Getting Started](#-getting-started)
-- [Configuration](#-configuration)
 - [Deployment](#-deployment)
+- [API Documentation](#-api-documentation)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -34,83 +34,63 @@
 
 ## 🎯 About
 
-**Trainways Hub** is a full-stack railway ticket booking and management system designed to streamline train reservations, schedule management, and passenger operations. This platform combines modern web technologies with robust backend infrastructure to provide a seamless booking experience.
+**Trainways Hub** is a comprehensive railway management and booking platform designed to revolutionize the way passengers interact with rail transportation. Built with modern web technologies, it provides:
 
-### Key Objectives
+- 🚂 **Train Management** - Manage routes, schedules, and capacity
+- 🎫 **Booking System** - Seamless ticket reservation and purchase
+- 👥 **Passenger Management** - Track passenger information and bookings
+- 📊 **Analytics Dashboard** - Real-time insights and statistics
+- 🔐 **Security** - Enterprise-grade authentication and authorization
+- 📱 **Responsive Design** - Works perfectly on all devices
 
-- 🎫 **Easy Ticket Booking** - Simple, intuitive booking interface
-- 🚂 **Schedule Management** - Real-time train schedules and availability
-- 👥 **Passenger Management** - Track bookings and passenger information
-- 💳 **Secure Payments** - Secure transaction processing
-- 📊 **Analytics & Reporting** - Comprehensive booking analytics
-- 🔔 **Notifications** - Real-time booking confirmations & updates
+Perfect for railway operators, travel agencies, and passengers!
 
 ---
 
 ## ✨ Features
 
-### 🎫 Booking System
-- **Search & Filter** - Find trains by route, date, and time
-- **Real-time Availability** - Live seat availability updates
-- **Multiple Booking Options** - Single ticket or bulk bookings
-- **Seat Selection** - Interactive seat map selection
-- **Booking History** - View past and upcoming bookings
-- **Cancellation Support** - Easy ticket cancellation with refunds
-
-### 👥 User Management
-- **User Registration** - Simple sign-up process
-- **Profile Management** - Update passenger information
-- **Multi-passenger Bookings** - Book for multiple travelers
-- **Saved Preferences** - Remember travel preferences
-- **Secure Authentication** - JWT-based authentication
-
 ### 🚂 Train Management
-- **Train Schedules** - Comprehensive schedule database
-- **Route Management** - Multiple routes and stations
-- **Class Types** - First Class, Second Class, General
-- **Coach Information** - Real-time coach availability
-- **Price Management** - Dynamic pricing based on demand
+- **Route Planning** - Create and manage railway routes
+- **Schedule Management** - Set train schedules and frequencies
+- **Capacity Tracking** - Monitor seat availability
+- **Train Information** - Detailed train specifications
+- **Real-time Updates** - Live train status tracking
 
-### 📱 User Interface
-- **Responsive Design** - Mobile-first approach
-- **Real-time Updates** - Live data synchronization
-- **Intuitive Navigation** - Easy-to-use interface
-- **Dark Mode Support** - Comfortable viewing experience
-- **Accessibility Features** - WCAG compliance
+### 🎫 Booking System
+- **Easy Booking** - Simple, intuitive reservation process
+- **Seat Selection** - Visual seat layout with selection
+- **Multiple Choices** - Filter by date, time, and class
+- **Instant Confirmation** - Immediate booking confirmation
+- **Payment Gateway** - Secure online payment processing
 
-### 🔒 Security & Admin Features
-- **Admin Dashboard** - Manage trains, routes, and bookings
-- **Role-based Access** - Admin, User, and Operator roles
-- **Secure Payments** - Payment gateway integration
-- **Data Encryption** - Secure data transmission
-- **Audit Logs** - Track all system activities
+### 👥 Passenger Dashboard
+- **My Bookings** - View all reservations
+- **Booking History** - Access past bookings
+- **Cancellation** - Easy cancellation with refunds
+- **Modifications** - Reschedule or change tickets
+- **E-Tickets** - Digital ticket generation and download
+
+### 📊 Admin Dashboard
+- **Analytics** - Revenue and booking statistics
+- **User Management** - Manage passengers and staff
+- **Train Management** - Add/edit train information
+- **Booking Reports** - Generate detailed reports
+- **System Settings** - Configure platform parameters
+
+### 🔍 Search & Filter
+- **Advanced Search** - Search by route, date, time
+- **Filters** - Filter by train type, price, duration
+- **Sorting** - Sort by time, price, rating
+- **Save Searches** - Store favorite routes
+- **Notifications** - Price drop alerts
 
 ---
 
-## 🧠 Technologies Used
+## 🌐 Live Demo
 
-### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Explore the live application:**
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Next.js API Routes](https://img.shields.io/badge/Next.js%20API-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-### Database
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![PL/pgSQL](https://img.shields.io/badge/PL/pgSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Tools & Libraries
-- **ORM**: Prisma or TypeORM
-- **State Management**: Redux/Zustand
-- **Form Handling**: React Hook Form
-- **API Client**: Axios or Fetch API
-- **Testing**: Jest, React Testing Library
-- **Linting**: ESLint, Prettier
+🔗 **[https://trainways-hub.vercel.app](https://trainways-hub.vercel.app)** *(if deployed)*
 
 ---
 
@@ -119,7 +99,7 @@
 ### Prerequisites
 ```
 Node.js >= 16.x
-PostgreSQL >= 12
+PostgreSQL >= 12.x
 npm or yarn
 Git
 ```
@@ -139,34 +119,23 @@ npm install
 yarn install
 ```
 
-3. **Setup environment variables**
+3. **Create environment file**
 ```bash
 cp .env.example .env.local
 ```
 
-4. **Configure .env.local**
+4. **Configure environment variables**
 ```env
-# Database
-DATABASE_URL=postgresql://user:password@localhost:5432/trainways_hub
-
-# Next.js
+DATABASE_URL=postgresql://user:password@localhost:5432/trainways
 NEXT_PUBLIC_API_URL=http://localhost:3000
-
-# Authentication
-JWT_SECRET=your_jwt_secret_key
-
-# Optional: Payment Gateway
-STRIPE_PUBLIC_KEY=your_stripe_public_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+JWT_SECRET=your_jwt_secret
+STRIPE_PUBLIC_KEY=your_stripe_key
 ```
 
-5. **Setup Database**
+5. **Setup database**
 ```bash
-# Run migrations
-npx prisma migrate dev
-
-# Seed database (optional)
-npm run seed
+npm run db:migrate
+npm run db:seed  # Optional: populate sample data
 ```
 
 6. **Run development server**
@@ -188,225 +157,255 @@ http://localhost:3000
 ```
 trainways-hub/
 │
-├── public/                           # Static assets
+├── public/                         # Static assets
 │   ├── images/
 │   ├── icons/
 │   └── favicon.ico
 │
 ├── src/
-│   ├── app/                          # Next.js App Router
-│   │   ├── api/                      # API routes
-│   │   │   ├── auth/                 # Authentication endpoints
-│   │   │   ├── trains/               # Train management endpoints
-│   │   │   ├── bookings/             # Booking endpoints
-│   │   │   └── users/                # User management endpoints
-│   │   ├── layout.tsx                # Root layout
-│   │   ├── page.tsx                  # Home page
-│   │   └── globals.css               # Global styles
+│   ├── app/                       # Next.js app directory
+│   │   ├── layout.tsx             # Root layout
+│   │   ├── page.tsx               # Home page
+│   │   ├── api/                   # API routes
+│   │   │   ├── auth/
+│   │   │   ├── trains/
+│   │   │   ├── bookings/
+│   │   │   └── payments/
+│   │   ├── dashboard/             # Dashboard pages
+│   │   ├── booking/               # Booking pages
+│   │   └── admin/                 # Admin pages
 │   │
-│   ├── components/                   # Reusable React components
-│   │   ├── Navbar.tsx                # Navigation component
-│   │   ├── Footer.tsx                # Footer component
-│   │   ├── BookingForm.tsx           # Booking search form
-│   │   ├── TrainCard.tsx             # Train display component
-│   │   ├── SeatSelector.tsx          # Interactive seat selector
-│   │   └── Payment/                  # Payment components
+│   ├── components/                # React components
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── SearchBar.tsx
+│   │   ├── TrainList.tsx
+│   │   ├── SeatSelection.tsx
+│   │   ├── BookingSummary.tsx
+│   │   └── Dashboard.tsx
 │   │
-│   ├── pages/                        # Page components
-│   │   ├── BookingPage.tsx           # Main booking page
-│   │   ├── MyBookings.tsx            # User bookings page
-│   │   ├── AdminDashboard.tsx        # Admin dashboard
-│   │   └── TrainDetails.tsx          # Train details page
+│   ├── lib/                       # Utility functions
+│   │   ├── db.ts                  # Database client
+│   │   ├── auth.ts                # Authentication
+│   │   ├── api.ts                 # API helpers
+│   │   └── validation.ts          # Input validation
 │   │
-│   ├── services/                     # API services
-│   │   ├── trainService.ts           # Train-related API calls
-│   │   ├── bookingService.ts         # Booking operations
-│   │   ├── userService.ts            # User operations
-│   │   └── authService.ts            # Authentication services
+│   ├── types/                     # TypeScript types
+│   │   ├── index.ts
+│   │   ├── user.ts
+│   │   ├── train.ts
+│   │   └── booking.ts
 │   │
-│   ├── hooks/                        # Custom React hooks
-│   │   ├── useAuth.ts                # Authentication hook
-│   │   ├── useBooking.ts             # Booking management hook
-│   │   └── useTrain.ts               # Train data hook
+│   ├── styles/                    # CSS/Tailwind
+│   │   ├── globals.css
+│   │   └── components.css
 │   │
-│   ├── lib/                          # Utility functions
-│   │   ├── db.ts                     # Database connection
-│   │   ├── auth.ts                   # Auth utilities
-│   │   └── helpers.ts                # Helper functions
-│   │
-│   ├── middleware/                   # Next.js middleware
-│   │   └── auth.ts                   # Authentication middleware
-│   │
-│   ├── types/                        # TypeScript types
-│   │   ├── index.ts                  # Type definitions
-│   │   ├── train.ts                  # Train types
-│   │   └── booking.ts                # Booking types
-│   │
-│   └── styles/                       # CSS modules
-│       ├── booking.module.css
-│       └── seat-selector.module.css
+│   └── context/                   # React context
+│       ├── AuthContext.tsx
+│       └── BookingContext.tsx
 │
-├── prisma/                           # Database schema
-│   ├── schema.prisma                 # Prisma schema
-│   └── migrations/                   # Database migrations
+├── prisma/                        # Database schema
+│   ├── schema.prisma
+│   └── migrations/
 │
-├── .env.example                      # Environment variables template
-├── .eslintrc.json                   # ESLint configuration
-├── .gitignore                       # Git ignore rules
-├── next.config.js                   # Next.js configuration
-├── tailwind.config.js                # Tailwind CSS config
-├── tsconfig.json                    # TypeScript configuration
-├── package.json                     # Project dependencies
-└── README.md                        # This file
+├── public/                        # Public assets
+├── tests/                         # Test files
+├── .env.example                   # Environment template
+├── .eslintrc.json                 # ESLint config
+├── next.config.js                 # Next.js config
+├── tailwind.config.js             # Tailwind config
+├── tsconfig.json                  # TypeScript config
+├── package.json
+└── README.md                      # This file
 ```
 
 ---
 
-## 🗄️ Database Schema
+## 🧠 Technologies Used
 
-### Core Tables
+### Frontend (95.5% TypeScript)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+### Styling (2.1% CSS)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- Modern CSS features
+- Responsive design
+- Animations & transitions
+
+### Backend & Database (1.8% PL/pgSQL, 0.6% JavaScript)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+### Authentication & Security
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=auth0&logoColor=white)
+![NextAuth](https://img.shields.io/badge/NextAuth-5F7DF1?style=for-the-badge&logo=nextauth&logoColor=white)
+
+### Payment Processing
+![Stripe](https://img.shields.io/badge/Stripe-626262?style=for-the-badge&logo=stripe&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
+
+### Development Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)
+
+### Deployment
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## 🚀 Development
+
+### Available Scripts
+
+**Development server**
+```bash
+npm run dev
+```
+
+**Production build**
+```bash
+npm run build
+npm run start
+```
+
+**Database management**
+```bash
+npm run db:migrate     # Run migrations
+npm run db:push        # Push schema to database
+npm run db:seed        # Seed sample data
+npm run db:studio      # Open Prisma Studio
+```
+
+**Code quality**
+```bash
+npm run lint           # Run ESLint
+npm run format         # Format with Prettier
+npm run type-check     # Check TypeScript
+```
+
+**Testing**
+```bash
+npm run test           # Run all tests
+npm run test:watch     # Watch mode
+npm run test:coverage  # Coverage report
+```
+
+---
+
+## 📊 Database Schema
+
+### Key Tables
+
+**Users Table**
 ```sql
--- Users Table
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  email VARCHAR(255) UNIQUE NOT NULL,
-  password VARCHAR(255) NOT NULL,
-  full_name VARCHAR(255) NOT NULL,
-  phone VARCHAR(20),
-  role VARCHAR(50) DEFAULT 'user',
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+- id (Primary Key)
+- email (Unique)
+- password (Hashed)
+- firstName, lastName
+- phone
+- createdAt, updatedAt
+```
 
--- Trains Table
-CREATE TABLE trains (
-  id SERIAL PRIMARY KEY,
-  train_number VARCHAR(50) UNIQUE NOT NULL,
-  train_name VARCHAR(255) NOT NULL,
-  total_seats INTEGER NOT NULL,
-  status VARCHAR(50) DEFAULT 'active',
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+**Trains Table**
+```sql
+- id (Primary Key)
+- trainName, trainNumber (Unique)
+- source, destination
+- totalSeats, availableSeats
+- createdAt, updatedAt
+```
 
--- Routes Table
-CREATE TABLE routes (
-  id SERIAL PRIMARY KEY,
-  train_id INTEGER REFERENCES trains(id),
-  departure_station VARCHAR(255) NOT NULL,
-  arrival_station VARCHAR(255) NOT NULL,
-  departure_time TIME NOT NULL,
-  arrival_time TIME NOT NULL,
-  distance_km DECIMAL(8, 2),
-  base_fare DECIMAL(10, 2),
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+**Bookings Table**
+```sql
+- id (Primary Key)
+- userId (Foreign Key)
+- trainId (Foreign Key)
+- bookingDate, travelDate
+- totalFare, status
+- createdAt, updatedAt
+```
 
--- Bookings Table
-CREATE TABLE bookings (
-  id SERIAL PRIMARY KEY,
-  user_id INTEGER REFERENCES users(id),
-  train_id INTEGER REFERENCES trains(id),
-  route_id INTEGER REFERENCES routes(id),
-  seat_number VARCHAR(10) NOT NULL,
-  booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  travel_date DATE NOT NULL,
-  status VARCHAR(50) DEFAULT 'confirmed',
-  total_amount DECIMAL(10, 2),
-  payment_status VARCHAR(50) DEFAULT 'pending'
-);
-
--- Coaches Table
-CREATE TABLE coaches (
-  id SERIAL PRIMARY KEY,
-  train_id INTEGER REFERENCES trains(id),
-  coach_number VARCHAR(10),
-  class_type VARCHAR(50),
-  total_seats INTEGER,
-  available_seats INTEGER
-);
+**Seats Table**
+```sql
+- id (Primary Key)
+- trainId (Foreign Key)
+- seatNumber
+- seatClass, status
+- bookingId (Foreign Key, nullable)
 ```
 
 ---
 
-## 🔌 API Endpoints
+## 🔐 Security Features
 
 ### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
-- `GET /api/auth/me` - Get current user
+- JWT-based authentication
+- Secure password hashing (bcrypt)
+- Session management
+- Multi-factor authentication ready
 
-### Trains
-- `GET /api/trains` - List all trains
-- `GET /api/trains/:id` - Get train details
-- `POST /api/trains` - Create train (Admin)
-- `PUT /api/trains/:id` - Update train (Admin)
-- `DELETE /api/trains/:id` - Delete train (Admin)
+### Authorization
+- Role-based access control (RBAC)
+- Admin, staff, and passenger roles
+- Granular permissions
+- API endpoint protection
 
-### Bookings
-- `GET /api/bookings` - Get user bookings
-- `GET /api/bookings/:id` - Get booking details
-- `POST /api/bookings` - Create new booking
-- `PUT /api/bookings/:id` - Update booking
-- `DELETE /api/bookings/:id` - Cancel booking
-
-### Routes
-- `GET /api/routes/search` - Search routes
-- `GET /api/routes/:id` - Get route details
-- `POST /api/routes` - Create route (Admin)
-
-### Users
-- `GET /api/users/:id` - Get user profile
-- `PUT /api/users/:id` - Update user profile
-- `GET /api/users/:id/bookings` - Get user bookings
+### Data Protection
+- Encrypted sensitive data
+- SQL injection prevention
+- XSS protection
+- CSRF tokens
+- Rate limiting
+- Input validation
 
 ---
 
-## 🚀 Getting Started
+## 📱 API Documentation
 
-### Quick Start
+### Authentication Endpoints
+```
+POST /api/auth/register       - Register new user
+POST /api/auth/login          - Login user
+POST /api/auth/logout         - Logout user
+GET  /api/auth/me             - Get current user
+```
 
-1. **Setup & Installation** (as described above)
-2. **Create an account** on the home page
-3. **Search for trains** - Enter departure/arrival stations and date
-4. **Select train** - Choose preferred train and class
-5. **Select seats** - Pick your seats from the interactive map
-6. **Complete payment** - Enter payment details
-7. **Confirm booking** - Receive booking confirmation
+### Train Endpoints
+```
+GET  /api/trains              - Get all trains
+GET  /api/trains/:id          - Get specific train
+GET  /api/trains/search       - Search trains
+POST /api/trains              - Create train (admin)
+PUT  /api/trains/:id          - Update train (admin)
+```
 
-### For Admin Users
+### Booking Endpoints
+```
+GET  /api/bookings            - Get user bookings
+POST /api/bookings            - Create booking
+PUT  /api/bookings/:id        - Modify booking
+DELETE /api/bookings/:id      - Cancel booking
+GET  /api/bookings/:id        - Get booking details
+```
 
-1. Login with admin credentials
-2. Access Admin Dashboard
-3. Manage trains, routes, and schedules
-4. View booking analytics
-5. Handle cancellations and refunds
-
----
-
-## ⚙️ Configuration
-
-### Database Connection
-Update `DATABASE_URL` in `.env.local` with your PostgreSQL connection string.
-
-### Authentication
-- JWT tokens used for session management
-- Tokens expire after 24 hours
-- Refresh tokens available for extended sessions
-
-### Payment Integration
-If using Stripe:
-```env
-STRIPE_PUBLIC_KEY=pk_test_...
-STRIPE_SECRET_KEY=sk_test_...
+### Payment Endpoints
+```
+POST /api/payments            - Create payment
+GET  /api/payments/status     - Check payment status
+POST /api/payments/webhook    - Payment webhook
 ```
 
 ---
 
 ## 🚀 Deployment
 
-### Deploy to Vercel
+### Vercel Deployment (Recommended)
 
 1. **Push to GitHub**
 ```bash
@@ -414,44 +413,64 @@ git push origin main
 ```
 
 2. **Connect to Vercel**
-- Visit [vercel.com](https://vercel.com)
-- Import your GitHub repository
-- Set environment variables
-- Click Deploy
+- Go to [vercel.com](https://vercel.com)
+- Import repository
+- Configure environment variables
+- Deploy
 
 3. **Database Setup**
-- Set PostgreSQL DATABASE_URL in Vercel Environment
-- Run migrations: `npx prisma migrate deploy`
+- Configure PostgreSQL database
+- Run migrations on production
 
-### Deploy to Other Platforms
+### Docker Deployment
 
-**Heroku:**
 ```bash
-heroku create trainways-hub
-git push heroku main
-heroku run npx prisma migrate deploy
+# Build Docker image
+docker build -t trainways-hub .
+
+# Run container
+docker run -p 3000:3000 --env-file .env.prod trainways-hub
 ```
 
-**AWS/DigitalOcean:**
-- Set up PostgreSQL instance
-- Deploy Node.js/Next.js application
-- Configure environment variables
+### Self-Hosted Deployment
+
+```bash
+# Install dependencies
+npm install
+
+# Build application
+npm run build
+
+# Run production server
+npm run start
+```
 
 ---
 
-## 🔍 Performance Tips
+## 🎨 Customization
 
-- Use database indexing for frequently queried columns
-- Implement caching for train schedules
-- Optimize images and assets
-- Use pagination for large datasets
-- Monitor API response times
+### Branding
+Edit configuration in:
+- `public/manifest.json`
+- `tailwind.config.js`
+- `src/components/Header.tsx`
+
+### Features
+Enable/disable features in:
+- `src/lib/config.ts`
+- Environment variables
+
+### Styling
+Customize styles:
+- Tailwind configuration
+- CSS modules
+- Component styles
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Follow these steps:
+Contributions welcome! Follow these steps:
 
 1. **Fork the repository**
 ```bash
@@ -464,45 +483,51 @@ git checkout -b feature/your-feature-name
 ```
 
 3. **Make changes**
-- Write clean, typed code
-- Add comments for complex logic
-- Test your changes
+- Follow TypeScript best practices
+- Write meaningful commit messages
+- Add tests for new features
 
 4. **Commit & Push**
 ```bash
-git commit -m "Add: feature description"
+git commit -m "Add: your feature description"
 git push origin feature/your-feature-name
 ```
 
 5. **Open Pull Request**
-- Describe changes clearly
-- Link related issues
-- Request review
+
+### Contribution Areas
+- 🎨 UI/UX improvements
+- 🐛 Bug fixes
+- 📊 New features
+- 📚 Documentation
+- 🧪 Tests
+- 🌍 Internationalization
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Database Connection Issues
+### Common Issues
+
+**Database Connection Error**
 ```bash
 # Check PostgreSQL is running
-# Verify DATABASE_URL is correct
-# Test connection: psql $DATABASE_URL
+# Verify DATABASE_URL in .env.local
+npm run db:push
 ```
 
-### Build Errors
+**Build Failures**
 ```bash
-# Clear cache
-rm -rf .next node_modules
+# Clear Next.js cache
+rm -rf .next
 npm install
 npm run build
 ```
 
-### Port Already in Use
+**Port Already in Use**
 ```bash
-# Kill process on port 3000
-lsof -i :3000
-kill -9 <PID>
+# Use different port
+PORT=3001 npm run dev
 ```
 
 ---
@@ -511,9 +536,9 @@ kill -9 <PID>
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [PostgreSQL Docs](https://www.postgresql.org/docs/)
-- [Prisma Documentation](https://www.prisma.io/docs/)
-- [Tailwind CSS Guide](https://tailwindcss.com/docs)
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [PostgreSQL Guide](https://www.postgresql.org/docs/)
+- [Tailwind CSS](https://tailwindcss.com/docs)
 
 ---
 
@@ -521,7 +546,7 @@ kill -9 <PID>
 
 **Subham Khandual**
 
-B.Tech Computer Science Student | Full Stack Developer | Railway Tech Enthusiast
+B.Tech Computer Science Student | Full Stack Developer
 
 - 🔗 [GitHub](https://github.com/SubhamKhandual007)
 - 💼 [LinkedIn](https://www.linkedin.com/in/subham-khandual)
@@ -531,7 +556,7 @@ B.Tech Computer Science Student | Full Stack Developer | Railway Tech Enthusiast
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
@@ -541,26 +566,29 @@ If you find this project helpful:
 
 - ⭐ **Star the repository**
 - 🔗 **Share with others**
-- 💬 **Leave feedback**
+- 💬 **Provide feedback**
 - 🤝 **Contribute improvements**
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Built with modern full-stack technologies
-- Inspired by real-world railway systems
-- Special thanks to the open-source community
+- Railway industry standards
+- Modern web development community
+- Open-source libraries and frameworks
+- All contributors
 
 ---
 
 <div align="center">
 
-### 🚆 Ready to revolutionize train bookings?
+### 🚂 Connecting People, Simplifying Travel 🚂
 
-[Report Bug](https://github.com/SubhamKhandual007/trainways-hub/issues) • [Request Feature](https://github.com/SubhamKhandual007/trainways-hub/issues)
+**Trainways Hub: Railway Management Platform**
 
-**Made with ❤️ by Subham Khandual**
+Built with ❤️ for better rail transportation
+
+[Report Issue](https://github.com/SubhamKhandual007/trainways-hub/issues) • [Request Feature](https://github.com/SubhamKhandual007/trainways-hub/issues) • [Suggest Improvements](https://github.com/SubhamKhandual007/trainways-hub/discussions)
 
 [⬆ Back to Top](#-trainways-hub)
 
